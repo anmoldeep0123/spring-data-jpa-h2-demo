@@ -8,16 +8,22 @@
 </head>
 <body>
 	<form action="addAnmolTable">
-		<input type="text" name="fname"><br> 
-		<input type="text" name="lname"><br>
-		<input type="submit"><br>
+		<input type="text" name="fname"><br> <input type="text"
+			name="lname"><br> <input type="submit"><br>
 	</form>
-	
-	
+
+	<br>
+
 	<form action="getAnmolRow">
-		<input type="text" name="id"><br> 
-		<input type="submit"><br>
+		<input type="text" name="id"><br> <input type="submit"><br>
 	</form>
-	
+
+	<br>
+	<label>Pagination</label>
+
+	<form action="getPaginated">
+		<input type="text" name="pageNumber"><br> <input
+			type="text" name="pageSize"><br> <input type="submit"><br>
+	</form>
 </body>
 </html>
